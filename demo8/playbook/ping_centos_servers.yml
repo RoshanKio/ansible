@@ -1,0 +1,13 @@
+---
+- name : ping centos servers
+  hosts : windows_servers
+  gather_facts : yes
+  tasks :
+   - name : ping windows server right now! 
+     win_ping :
+
+
+
+
+
+    
