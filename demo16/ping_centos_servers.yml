@@ -1,0 +1,10 @@
+---
+- name : ping centos servers
+  hosts : centos_servers
+  gather_facts : yes
+  tasks :  
+   - name : ping centos servers now !
+     ping :
+
+
+
